@@ -796,6 +796,21 @@ section {
    MOBILE TYPOGRAPHY + SPACING FIXES
    =================================== */
 @media (max-width: 600px) {
+    
+    /* Smaller pill buttons on mobile portrait */
+    .contact-link {
+        font-size: 0.9rem !important;      /* smaller text */
+        padding: 0.6rem 1.2rem !important; /* smaller pill */
+        border-radius: 9999px !important;
+    }
+
+    /* Ensure they still stay in one row */
+    .contact-links {
+        gap: 0.75rem !important;
+        justify-content: center !important;
+        flex-wrap: nowrap !important;
+    }
+}
 
     /* Scale down the main hero name */
     .hero-title {
