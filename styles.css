@@ -860,8 +860,10 @@ section {
 /* ===================================
    EXTRA SPACE BETWEEN PROJECTS → CONTACT (MOBILE)
    =================================== */
+/* Fix contact tab not activating on mobile */
 @media (max-width: 768px) {
-    #projects {
-        padding-bottom: 220px !important;
+    #contact {
+        scroll-margin-top: 160px !important; /* makes anchor land lower */
+        padding-top: 140px !important;       /* extra buffer so scroll recognizes section */
     }
 }
