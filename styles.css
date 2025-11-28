@@ -651,3 +651,174 @@ section {
 .text-center {
     text-align: center;
 }
+
+/* ===================================
+   MOBILE HERO RESPONSIVE OVERRIDES
+   =================================== */
+
+/* Collapse hero into vertical layout */
+@media (max-width: 768px) {
+    .hero {
+        display: flex !important;
+        flex-direction: column !important; /* stack vertically */
+        align-items: center !important;
+        justify-content: center;
+        gap: 40px;
+        padding: 40px 20px !important;
+        text-align: center !important;
+    }
+
+    /* Left column becomes full width */
+    .hero-left {
+        width: 100% !important;
+        max-width: none !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Title sizes adjust */
+    .hero-title {
+        font-size: 3rem !important;
+        line-height: 1.1 !important;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem !important;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 0 10px;
+        max-width: 90%;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+        padding: 10px 18px;
+    }
+
+    /* Right column full width + centered */
+    .hero-right {
+        width: 100% !important;
+        max-width: none !important;
+        text-align: center !important;
+        padding: 0 10px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .action-header {
+        font-size: 1rem !important;
+        margin-bottom: 15px;
+    }
+
+    .action-list {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        text-align: center;
+    }
+
+    .action-item {
+        list-style: none;
+        width: 100%;
+    }
+
+    .action-link {
+        font-size: 0.95rem;
+        padding: 10px 16px;
+        display: inline-block;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2.4rem !important;
+    }
+
+    .action-link {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* ===================================
+   MOBILE NAVIGATION (PILL BAR)
+   =================================== */
+@media (max-width: 600px) {
+
+    /* Shrink the floating pill container */
+    .nav-container {
+        width: 95% !important;         /* Slightly narrower */
+        padding: 8px 10px !important;  /* Reduced padding */
+        margin: 10px auto !important;
+    }
+
+    /* Shrink the nav text inside the pill */
+    .nav-menu .nav-link {
+        font-size: 0.85rem !important;
+        padding: 6px 10px !important;
+    }
+
+    /* Tighten spacing between nav items */
+    .nav-menu {
+        gap: 4px !important;
+        justify-content: space-between;
+    }
+}
+
+
+/* ===================================
+   MOBILE TYPOGRAPHY + SPACING FIXES
+   =================================== */
+@media (max-width: 600px) {
+
+    /* Scale down the main hero name */
+    .hero-title {
+        font-size: 2.8rem !important;
+        line-height: 1.1 !important;
+    }
+
+    /* Scale down subtitle */
+    .hero-subtitle {
+        font-size: 1rem !important;
+        line-height: 1.4 !important;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Projects grid → 1 column */
+    .projects-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+
+    /* Section spacing reduction */
+    section {
+        padding: 60px 0 !important;
+    }
+
+    /* Section titles scale down slightly */
+    .section-title {
+        font-size: 1.75rem !important;
+        line-height: 1.2;
+    }
+
+    /* About page paragraph readability */
+    .about-text p {
+        font-size: 1rem !important;
+        line-height: 1.6 !important;
+    }
+
+    /* Skills text scale */
+    .skill-list li {
+        font-size: 0.85rem !important;
+        padding: 0.5rem 1rem !important;
+    }
+}
+
