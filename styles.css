@@ -659,6 +659,13 @@ section {
 /* Collapse hero into vertical layout */
 @media (max-width: 768px) {
 
+   .hero-left .btn-primary {
+        align-self: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+   
+
     .btn {
         align-self: center !important;
     }
