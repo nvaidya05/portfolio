@@ -842,3 +842,11 @@ section {
     }
 }
 
+/* ===================================
+   EXTRA SPACE BETWEEN PROJECTS → CONTACT (MOBILE)
+   =================================== */
+@media (max-width: 768px) {
+    #projects {
+        padding-bottom: 180px !important;
+    }
+}
