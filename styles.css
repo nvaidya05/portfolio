@@ -670,20 +670,22 @@ section {
         align-self: center !important;
     }
 
-    .hero {
-        padding-top: 120px !important;
-    }
+
 
     /* Existing hero overrides */
     .hero {
-        display: flex !important;
-        flex-direction: column !important; /* stack vertically */
-        align-items: center !important;
-        justify-content: center;
-        gap: 40px;
-        padding: 40px 20px !important;
-        text-align: center !important;
-    }
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center;
+    gap: 40px;
+
+    /* ⭐ ADD THIS BELOW: */
+    padding: 160px 20px 40px !important;
+    /*     ↑ top padding increased so mobile bar doesn't cover your name */
+
+    text-align: center !important;
+}
 
     /* Left column becomes full width */
     .hero-left {
