@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Neil Vaidya - Electrical & Computer Engineering Student at CU Boulder. Portfolio showcasing embedded systems and hardware engineering projects.">
+    <meta name="author" content="Neil Vaidya">
+
+    <title>Neil Vaidya | Electrical & Computer Engineering</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Floating Bottom Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-left">
+            <h1 class="hero-title">Neil<br>Vaidya</h1>
+            <p class="hero-subtitle">Electrical & Computer Engineering Student at University of Colorado Boulder</p>
+            <a href="#projects" class="btn btn-primary">View Work</a>
+        </div>
+        <div class="hero-right">
+            <div class="action-header">EXPLORE MY PROFILE</div>
+            <ul class="action-list">
+                <li class="action-item">
+                    <a href="assets/Neil_Vaidya_Resume.pdf" download="Neil_Vaidya_Resume.pdf"
+                        class="action-link">Download my Resume</a>
+                </li>
+                <li class="action-item">
+                    <a href="https://github.com/nvaidya05" target="_blank" rel="noopener noreferrer"
+                        class="action-link">View my GitHub</a>
+                </li>
+                <li class="action-item">
+                    <a href="mailto:neil.r.vaidya@gmail.com?subject=Portfolio%20Inquiry" class="action-link">Get in
+                        Touch</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I design reliable embedded systems that bridge foundational electrical theory with practical
+                        application. As a CU Esteemed Hale Scholar studying Electrical & Computer Engineering with a
+                        Business minor, I focus on creating solutions that are both technically excellent and
+                        commercially viable.</p>
+
+                    <p>From developing firmware for environmental monitoring devices to engineering data acquisition
+                        systems for renewable energy research, my work combines rigorous engineering fundamentals with
+                        real-world impact. I believe the best solutions emerge when technical expertise meets business
+                        acumen.</p>
+
+                    <div class="education-info">
+                        <h4>University of Colorado Boulder</h4>
+                        <p><strong>B.S. in Electrical & Computer Engineering</strong></p>
+                        <p>Minor in Business | CU Esteemed Hale Scholar</p>
+                        <p>Expected Graduation: May 2027</p>
+                    </div>
+                </div>
+                <div class="about-image-wrapper">
+                    <!-- Placeholder for professional headshot -->
+                    <img src="profile-pic-v4.png" alt="Neil Vaidya" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Software</h3>
+                    <ul class="skill-list">
+                        <li>C/C++</li>
+                        <li>Python</li>
+                        <li>Verilog</li>
+                        <li>MATLAB</li>
+                        <li>LabVIEW</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Hardware</h3>
+                    <ul class="skill-list">
+                        <li>PCB Design</li>
+                        <li>FPGA</li>
+                        <li>Microcontrollers</li>
+                        <li>STM32</li>
+                        <li>ESP32</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul class="skill-list">
+                        <li>Altium</li>
+                        <li>KiCAD</li>
+                        <li>MATLAB</li>
+                        <li>Qt Creator</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 6 -->
+                <div class="project-card" data-project="6">
+                    <img src="solar-daq-2.png" alt="Solar Panel DAQ" class="project-image">
+                    <h3 class="project-title">Solar Panel DAQ System</h3>
+                    <p class="project-summary">Real-time data logging system for a solar thermal testbed using Python
+                        and Arduino, featuring a custom GUI for live visualization and CSV export.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Arduino</span>
+                        <span class="project-tag">Data Logging</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-project="4">
+                    <img src="fuelcell-3d-clean.png" alt="Fuel Cell Testbed" class="project-image">
+                    <h3 class="project-title">Fuel Cell Testbed</h3>
+                    <p class="project-summary">Data acquisition system for hydrogen fuel cell testbed enabling real-time
+                        performance analysis for renewable energy research at CU Boulder.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">LabVIEW</span>
+                        <span class="project-tag">NI cRIO</span>
+                        <span class="project-tag">Renewable Energy</span>
+                    </div>
+                </div>
+
+                <!-- Project 1 -->
+                <div class="project-card" data-project="1">
+                    <img src="robot-circuit-top.jpg" alt="Robot Vehicle" class="project-image">
+                    <h3 class="project-title">Robot Vehicle</h3>
+                    <p class="project-summary">Wireless-controlled robot with motor parameter modeling, integrating
+                        compensator, and ESP32 microcontroller for gyroscope-based control.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Arduino</span>
+                        <span class="project-tag">ESP32</span>
+                        <span class="project-tag">PWM Control</span>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-project="5">
+                    <img src="amply-units.png" alt="Amply" class="project-image">
+                    <h3 class="project-title">Amply</h3>
+                    <p class="project-summary">Residential battery systems paired with AI compute, transforming homes
+                        into profitable micro-data centers that earn for owners while stabilizing the grid.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">AI Infrastructure</span>
+                        <span class="project-tag">Energy Storage</span>
+                        <span class="project-tag">Distributed Computing</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-project="2">
+                    <img src="soundnav-poster.jpg" alt="SoundNav" class="project-image">
+                    <h3 class="project-title">SoundNav</h3>
+                    <p class="project-summary">Communication system between ESP-32 boards with Bluetooth speaker
+                        integration for accessible navigation for visually impaired individuals.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">ESP32</span>
+                        <span class="project-tag">Bluetooth</span>
+                        <span class="project-tag">Accessibility</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-project="3">
+                    <img src="corsi-thumb.jpg" alt="Smart Corsi Rosenthal Box Fan" class="project-image">
+                    <h3 class="project-title">Smart Corsi Rosenthal Box Fan</h3>
+                    <p class="project-summary">Air purification system for improved indoor air quality.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Air Quality</span>
+                        <span class="project-tag">IoT</span>
+                        <span class="project-tag">Arduino</span>
+                        <span class="project-tag">PCB Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="contact-title">Let's Build Something.</h2>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/neilvaidya05/" target="_blank" rel="noopener noreferrer"
+                    class="contact-link">
+                    LinkedIn
+                </a>
+                <span style="color: var(--dark-grey);">|</span>
+                <a href="https://github.com/nvaidya05" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    GitHub
+                </a>
+                <span style="color: var(--dark-grey);">|</span>
+                <a href="mailto:neil.r.vaidya@gmail.com?subject=Portfolio%20Inquiry" class="contact-link">
+                    Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Neil Vaidya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <div class="lightbox-content" id="lightboxContent">
+            <!-- Content will be dynamically inserted -->
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
