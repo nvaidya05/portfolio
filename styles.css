@@ -847,6 +847,6 @@ section {
    =================================== */
 @media (max-width: 768px) {
     #projects {
-        padding-bottom: 180px !important;
+        padding-bottom: 220px !important;
     }
 }
