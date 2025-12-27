@@ -709,7 +709,7 @@ section {
         font-size: 1rem !important;
         margin-top: 10px;
         margin-bottom: 20px;
-        padding: 0 10px;
+        padding: 0;
         max-width: 90%;
     }
 
